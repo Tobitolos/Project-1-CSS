@@ -22,3 +22,21 @@
   --white: #ffffff;
   --shadow: rgba(0, 0, 0, 0.15);
 }
+
+/* basic styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--light-bg);
+  margin: 0;
+  padding: 0;
+}
