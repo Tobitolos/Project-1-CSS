@@ -81,3 +81,43 @@ a:hover {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+/* header */
+header {
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 5px var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.logo-text {
+  font-family: "Komika Title", 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
