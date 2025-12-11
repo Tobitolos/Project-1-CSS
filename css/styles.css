@@ -253,3 +253,14 @@ main {
 .car-card-3d:hover .car-card-3d-inner {
   transform: rotateY(5deg) rotateX(-5deg);
 }
+
+/* about section */
+.about-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
