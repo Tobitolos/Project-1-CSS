@@ -264,3 +264,62 @@ main {
   position: relative;
   overflow: hidden;
 }
+
+/* svg styles */
+.car-icon-svg {
+  width: 200px;
+  height: 100px;
+  margin: 1rem auto;
+  display: block;
+  border: 3px dashed #ccc;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+
+.car-icon-svg rect {
+  fill: var(--primary-color);
+  transition: all 0.5s;
+}
+
+.car-icon-svg circle {
+  fill: var(--dark-bg);
+  transition: all 0.5s;
+}
+
+.car-icon-svg:hover {
+  transform: rotateY(20deg);
+}
+
+.car-icon-svg:hover rect {
+  fill: var(--secondary-color);
+}
+
+.car-icon-svg:hover circle {
+  fill: var(--accent-color);
+}
+
+.svg-decoration {
+  position: absolute;
+  opacity: 0.15;
+  z-index: 0;
+}
+
+.svg-decoration svg {
+  width: 200px;
+  height: 200px;
+}
+
+.svg-decoration circle {
+  fill: none;
+  stroke: var(--primary-color);
+  stroke-width: 3;
+}
+
+.svg-decoration rect {
+  fill: var(--secondary-color);
+}
+
+.svg-decoration-top-right {
+  top: -50px;
+  right: -50px;
+}
