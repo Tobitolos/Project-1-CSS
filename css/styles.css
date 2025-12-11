@@ -9,3 +9,16 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* colours */
+:root {
+  --primary-color: #e53935;
+  --secondary-color: #1e88e5;
+  --accent-color: #ffb74d;
+  --dark-bg: #333333;
+  --light-bg: #fafafa;
+  --text-dark: #000000;
+  --text-light: #666666;
+  --white: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.15);
+}
