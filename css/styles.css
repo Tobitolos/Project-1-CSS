@@ -74,3 +74,10 @@ a {
 a:hover {
   color: var(--secondary-color);
 }
+
+/* container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
