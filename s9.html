@@ -6,6 +6,7 @@
     <title>S9 - Automoblox</title>
     <meta name="description" content="Discover the Automoblox S9 - a classic wooden car kit that combines elegance with modern design.">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -38,21 +39,47 @@
                     <h1>S9</h1>
                     <p>The S9 represents classic elegance meeting modern design. This versatile vehicle is perfect for both play and display, making it an ideal choice for collectors and families alike.</p>
                     
-                    <h2>Key Features</h2>
-                    <ul class="car-specs">
-                        <li><strong>Design:</strong> Classic</li>
-                        <li><strong>Material:</strong> Premium Wood</li>
-                        <li><strong>Style:</strong> Elegant</li>
-                        <li><strong>Age Range:</strong> 3+</li>
-                        <li><strong>Assembly:</strong> Required</li>
-                    </ul>
+                    <div class="accordion" id="accordionS9">
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseS91">Key Features</button>
+                            </h2>
+                            <div id="collapseS91" class="accordion-collapse collapse show" data-parent="#accordionS9">
+                                <div class="accordion-body">
+                                    <ul class="car-specs">
+                                        <li><strong>Design:</strong> Classic</li>
+                                        <li><strong>Material:</strong> Premium Wood</li>
+                                        <li><strong>Style:</strong> Elegant</li>
+                                        <li><strong>Age Range:</strong> 3+</li>
+                                        <li><strong>Assembly:</strong> Required</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
 
-                    <h2>About the S9</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseS92">About the S9</button>
+                            </h2>
+                            <div id="collapseS92" class="accordion-collapse collapse" data-parent="#accordionS9">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </section>
 
-                    <h2>Design Philosophy</h2>
-                    <p>The S9 embodies timeless design principles while incorporating contemporary elements. Its balanced proportions and refined details make it a versatile addition to any Automoblox collection, appealing to both young and old.</p>
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseS93">Design Philosophy</button>
+                            </h2>
+                            <div id="collapseS93" class="accordion-collapse collapse" data-parent="#accordionS9">
+                                <div class="accordion-body">
+                                    <p>The S9 embodies timeless design principles while incorporating contemporary elements. Its balanced proportions and refined details make it a versatile addition to any Automoblox collection, appealing to both young and old.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
 
                     <a href="index.html" class="btn">Back to Collection</a>
                 </div>
@@ -66,6 +93,7 @@
             <p>2024 Automoblox. All rights reserved</p>
         </div>
     </footer>
+    <script src="js/accordion.js"></script>
 </body>
 </html>
 

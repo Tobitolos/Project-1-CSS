@@ -6,6 +6,7 @@
     <title>C9R Sportscar - Automoblox</title>
     <meta name="description" content="Discover the Automoblox C9R Sportscar - a sleek, aerodynamic wooden car kit designed for speed and style.">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -38,21 +39,47 @@
                     <h1>C9R Sportscar</h1>
                     <p>The C9R Sportscar represents the pinnacle of automotive design in the Automoblox collection. With its sleek, aerodynamic profile and premium wooden construction, this vehicle is designed for those who appreciate both speed and craftsmanship.</p>
                     
-                    <h2>Key Features</h2>
-                    <ul class="car-specs">
-                        <li><strong>Design:</strong> Sportscar</li>
-                        <li><strong>Material:</strong> Premium Wood</li>
-                        <li><strong>Style:</strong> Racing</li>
-                        <li><strong>Age Range:</strong> 3+</li>
-                        <li><strong>Assembly:</strong> Required</li>
-                    </ul>
+                    <div class="accordion" id="accordionC9R">
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseC9R1">Key Features</button>
+                            </h2>
+                            <div id="collapseC9R1" class="accordion-collapse collapse show" data-parent="#accordionC9R">
+                                <div class="accordion-body">
+                                    <ul class="car-specs">
+                                        <li><strong>Design:</strong> Sportscar</li>
+                                        <li><strong>Material:</strong> Premium Wood</li>
+                                        <li><strong>Style:</strong> Racing</li>
+                                        <li><strong>Age Range:</strong> 3+</li>
+                                        <li><strong>Assembly:</strong> Required</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
 
-                    <h2>About the C9R</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseC9R2">About the C9R</button>
+                            </h2>
+                            <div id="collapseC9R2" class="accordion-collapse collapse" data-parent="#accordionC9R">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </section>
 
-                    <h2>Design Philosophy</h2>
-                    <p>The C9R embodies the spirit of racing excellence. Every curve and angle has been carefully considered to create a vehicle that is both visually stunning and functionally superior. The wooden construction ensures durability while maintaining the aesthetic appeal that makes Automoblox vehicles so special.</p>
+                        <section class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseC9R3">Design Philosophy</button>
+                            </h2>
+                            <div id="collapseC9R3" class="accordion-collapse collapse" data-parent="#accordionC9R">
+                                <div class="accordion-body">
+                                    <p>The C9R embodies the spirit of racing excellence. Every curve and angle has been carefully considered to create a vehicle that is both visually stunning and functionally superior. The wooden construction ensures durability while maintaining the aesthetic appeal that makes Automoblox vehicles so special.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
 
                     <a href="index.html" class="btn">Back to Collection</a>
                 </div>
@@ -66,6 +93,7 @@
             <p>2024 Automoblox. All rights reserved</p>
         </div>
     </footer>
+    <script src="js/accordion.js"></script>
 </body>
 </html>
 
